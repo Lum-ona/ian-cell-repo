@@ -80,7 +80,7 @@ def train():
 
     model.save(os.path.join('models', 'cellparasitized.h5'))
 
-train()
+# train()
 
 
 
