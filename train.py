@@ -74,7 +74,7 @@ def train():
     model.fit(train, epochs=20, validation_data=val, callbacks=[tensorboard_callback])
 
     return model
-# train().save(os.path.join('models', 'cellmodel-v1.h5'))
+# train().save(os.path.join('models', 'cellmodel-v2.h5'))
 
 
 def test ():
